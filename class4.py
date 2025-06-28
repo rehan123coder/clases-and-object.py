@@ -3,7 +3,7 @@ class dad():
             self.eyecolour=eyecolour
             self.face=face
             
-    def display(self):
+    def __display(self):
           print("eye colour is ",self.eyecolour)
           print("face is ",self.face)
         
